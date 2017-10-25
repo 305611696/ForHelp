@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已配对设备"
+        />
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/erv_btBond"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+    </com.jude.easyrecyclerview.EasyRecyclerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray"
+        >
+
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索到设备"
+        />
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/erv_btLst"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </com.jude.easyrecyclerview.EasyRecyclerView>
+
+</LinearLayout>
